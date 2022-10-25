@@ -1,0 +1,101 @@
+html,body{
+    height: 100vh;
+    background-color: grey;
+}
+.cont{
+    display: grid;
+    grid-template-rows:50% 17% 33%;
+    height: 100%;
+}
+
+.primeira{
+    display: flex; 
+}
+.segunda{
+    display: flex;
+}
+.terceira{
+    display: flex;
+}
+
+
+.vermelho{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+.azulB{
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+}
+.amarelo{
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}
+.verde{
+    height: 100%;
+    width: 25%;
+    background-color: greenyellow;
+}
+.azulE{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+
+@media only screen and (max-width: 576px) {
+    
+    .cont{
+        display: grid;
+        background-color: gray;
+    }
+    .primeira{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .segunda{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .terceira{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .vermelho{
+        background-color: red;
+        width: 50%;
+        height: 50%;
+    }
+    .azulB{
+        background-color: aqua;
+        width: 50%;
+        height: 50%;
+    }
+    .amarelo{
+        background-color: yellow;
+        height: 100%;
+        width: 90%;
+    }
+    .verde{
+        height: 50%;
+        width: 50%;
+        background-color: greenyellow;
+    }
+    .azulE{
+        height: 50%;
+        width: 70%;
+        background-color: blue;
+    }
+  }
