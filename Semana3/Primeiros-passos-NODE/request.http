@@ -1,0 +1,31 @@
+POST http://localhost:4002/products
+Content-Type: : application/json
+
+{
+    "name": "Cta s",
+    "price": 3.3
+}
+//inserir 
+###
+
+GET http://localhost:4002/products
+
+//retorna valores inseridos 
+###
+
+GET http://localhost:4002/products/(id)
+//retorna o valor do array conforme o id inserido 
+
+###
+PUT   http://localhost:4002/products/(id)
+Content-Type: : application/json
+
+{
+    "name": "Caeta ás",
+    "price": 3.3
+}
+//altera o valor do id inserido 
+
+###
+DELETE http://localhost:4002/products/(id)
+//Deleta valor do id inserido
