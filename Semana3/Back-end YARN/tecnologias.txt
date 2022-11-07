@@ -1,0 +1,16 @@
+Express
+-Framework que gerencia requisições de diferentes verbos http em diferentes urls
+
+YARN
+-É um gerenciador de pacotes para realizar a aplicação de comandos prontos no cóidigo.
+
+INSOMNIA
+-Permite testar rotas de formato post, put, delete, get
+
+TIPOS DE PARAMETROS
+-Query Params: Filtros e paginação (listagem de projetos específicos)(const{title, owner} = request.query).
+-Route Params: Indentificar recursos(atualizar ou deletar)(const params = request.params).
+-Request Body: Conteúdo na hora de criar ou editar recursos(JSON).
+
+UUID
+-Gerador de IDs aleatórios.
