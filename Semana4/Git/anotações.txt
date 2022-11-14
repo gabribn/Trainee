@@ -1,0 +1,24 @@
+
+Commit= Realização de  mudanças provisórias e ou permanentes. Capturando o estado do projeto naquele determinado momento.
+Branch= Ponteiro móvel para um commit, no caso o último.
+
+CRIAR REPOSITÓRIO:
+1 - Criar no GitHub.
+2 - Copiar a URL.
+3 - No diretório, pelo cli:
+    - git init (Inicia o controle de versão)
+    - git add . (Insere todos os arquivos do projeto)
+    - git commit -m "descrição do commit" (Commita o projeto)
+    - git remote add origin [endereço https do repositório no GitHub]
+    - git remote -v (Confere o endereço)
+    - git push -u origin master (Envia o projeto para a Branch master)
+
+ATT NOVO REPOSITÓRIO:
+1 - No diretório, pelo cli:
+    - git add .
+    - git commit -m "descrição do commit"
+    - git push -u origin master
+
+BAIXAR UM PROJETO 
+1 - No CLI:
+    - git clone [url do repositório no GitHub] (clona o repositório)
