@@ -1,0 +1,9 @@
+ESLint
+organização e pardronização de código.
+indentifica erros conforme as regras definidas.
+
+Prettier
+deixa o código mais bonito .
+fintegra com o ESLint.
+Cria padrão de estilo.
+
