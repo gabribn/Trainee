@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span>Aseii receitas</span>
+            </div>
+            
+            <div class="pesquisa">
+               <button id="pes" type="button">Pesquisa</button>
+            </div>
+            <a href="Desafio3.html" class="retornar"> <img src="imagens/retornar.png"></a>
+        </nav>
+    </header>
+
+    <div id="modal">
+            <h1 id="comida">
+                Churros
+            </h1>
+            <select name="prato" id="selecionar" onchange="mudarmodal();">
+                <option value="prato">Prato</option>
+                <option value="ingredientes">Ingredientes</option>
+                <option value="modo-de-preparo">Modo de preparo</option>
+            </select>
+
+        <section id="prato">
+
+            <img src="imagens/churross.png" id="imagem">
+
+            <div class="haha">
+                <div class="haha2">
+                    <img src="imagens/relogio.png" alt="">
+                    <p class="tempo" >
+                        tempo de Preparo <br>60 min
+                    </p>
+                </div>
+                
+                <div class="haha2">
+                    <img src="imagens/talheres.png" alt=""> 
+                    <p class="rendimento">
+                        Rendimento <br>30 porções
+                    </p>
+                </div>
+               
+            </div>
+        </section>
+
+        <section id="ingredientes">
+            <div id="titulo">
+                <img src="imagens/ingredientes.png">
+                <h1>Ingredientes</h1>
+            </div>
+            <ul>
+                <li>1 kg de farinha de trigo;</li>
+                <li>1/2 xícara (chá) de óleo;</li>
+                <li>1/2 xícara (chá) de leite morno;</li>
+                <li>1 colher (sopa) de vinagre;</li>
+                <li>1/2 copo (americano) de pinga;</li>
+                <li>1 colher (sopa) de sal;</li>
+                <li>2 colheres (sopa) de açúcar;</li>
+                <li>Água morna até dar o ponto;</li>
+                <li>Recheio a gosto.</li>
+            </ul>
+        </section>
+        
+        <section id="modo-de-preparo">
+            <ol>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam in accusamus quibusdam veniam, natus quo quae ipsam tenetur ad doloribus, dolor ducimus eaque minus explicabo eveniet distinctio? Tempore, nihil. Dignissimos!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam in accusamus quibusdam veniam, natus quo quae ipsam tenetur ad doloribus, dolor ducimus eaque minus explicabo eveniet distinctio? Tempore, nihil. Dignissimos!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam in accusamus quibusdam veniam, natus quo quae ipsam tenetur ad doloribus, dolor ducimus eaque minus explicabo eveniet distinctio? Tempore, nihil. Dignissimos!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam in accusamus quibusdam veniam, natus quo quae ipsam tenetur ad doloribus, dolor ducimus eaque minus explicabo eveniet distinctio? Tempore, nihil. Dignissimos!</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam in accusamus quibusdam veniam, natus quo quae ipsam tenetur ad doloribus, dolor ducimus eaque minus explicabo eveniet distinctio? Tempore, nihil. Dignissimos!</li>
+            </ol>
+        </section>
+    </div>
+    
+    
+    <div class="footer ">
+        <p >Feito com ❤ por Gabriel e Victor Hugo</p>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

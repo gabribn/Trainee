@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.ttf');
+  } 
+
+  body{
+    font-family: "Inter";
+}
+
+.logo{
+    position: absolute;
+    width: 296px;
+    height: 146px;
+    left: 2%;
+    top: -33px; 
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 
+        -2px -2px 0px #00FFFF, 
+        -2px 2px 0px #00FFFF,                    
+        2px -2px 0px #00FFFF,                  
+        2px 0px 0px #00FFFF;
+}
+
+.retornar{
+    float: right;
+}
+
+#modal{
+    position: fixed;
+    width: 75%;
+    height: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+
+    background: #192939;
+    border-radius: 5px;
+}
+
+#comida{
+    
+    display: inline-block;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+}
+
+#prato{
+    display: none;
+}
+
+#titulo {
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+#titulo img {
+    height: 58px;
+    width: 50px;
+}
+
+#titulo h1 {
+    display: inline-block;
+    color: white;
+    
+}
+
+#ingredientes{
+    display: none;
+}
+
+#modo-de-preparo{
+    display: none;
+}
+
+ul{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    line-height: 50px;
+}
+
+ol{
+    position: fixed;
+    color: white;
+    width: 80%;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 35px;
+    font-size: 22px;
+}
+
+ol li{
+    margin-top: 15px;
+}
+
+#selecionar{
+    width: 255px;
+    height: 42px;
+    float: right;
+    margin-top: 8px;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+
+    background: #0B7373;
+    border-radius: 10px;
+}
+
+section{
+    height: 100%;
+}
+
+option{
+    position: absolute;
+    width: 65px;
+    height: 29px;
+    left: 1144px;
+    top: 153px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+
+    background: #D9D9D9;
+    color: black;
+}
+
+#imagem{
+    width: 80%;
+    height: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    
+    border-radius: 5px;
+}
+
+.haha{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.haha p{
+    text-align: center;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    margin-top: auto;
+    font-size: 24px;
+    
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+    color: white;
+}
+
+.haha2{
+    width: 20%;
+    display: flex;
+    background: #0B7373;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 5px;
+}
+
+.haha2 img{
+    position: relative;
+    width: 20%;
+    height: 40%;
+    left: 0;
+    top: 50%;
+
+    transform: translateY(-50%);
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 89px;
+    left: 0px;
+    top: 0px;
+    background: #0B7373;
+}
+
+
+#pes{
+    position: absolute;
+    width: 289px;
+    height: 74px;
+    left: 75%;
+    top: 7px;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    background: #FFFFFF;
+    border-radius: 80px;
+}
+
+.footer{   
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 8%;
+    left: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 8px;
+    margin-top: 0%;
+    background-color:#0DC2C4;
+    color: white;
+    text-align: center;
+    margin-bottom: none;
+    padding: 0;
+}
+
